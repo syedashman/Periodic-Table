@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    background-color: white
+
+}
+.heading{
+    size: 65px;
+    font-family: "Poetsen One", sans-serif;
+    color: black;
+    /* margin: 30px; */
+    width:400px;
+    background-color:rgb(204, 166, 94);
+    /* height: 100px; */
+    /* animation: flicker 1.5s infinite alternate; */
+    
+}
+.heading:hover{
+    background-color: #003355;
+    color: white;
+
+
+}
+
+td{
+    color: white;
+    /* border: 1px solid white; */
+    text-align: center;
+    width: 1px;
+    font-weight: 700;
+    size: 12px;
+    /* border: none; */
+    cursor: text;
+    font-size: small;
+    
+}
+
+td :hover{
+    filter: brightness(200%);
+    animation: grow 2s infinite;
+    
+}
+div{
+    font-weight: 1;
+    width: 64.5px;
+    font-size: smaller;
+    
+}
+table{
+    padding: 15.5px;
+}
+tr :hover{
+    animation: grow 2s infinite;
+}
+
+
+.space{
+    border: none;
+}
+
+
+.color1{
+    background-color: #0060f0;
+
+    
+}
+.color-2{
+    background-color: #cd1d5e;
+    
+    
+}
+
+.color-3{
+    background-color:#00758c
+}
+
+.color-4{
+    background-color: #945700
+}
+
+.color-5{
+    background-color: #227754
+}
+
+.color-6{
+    background-color: #6232ec
+}
+
+.color-7{
+    background-color:#003355;
+    
+}
+
+.color-8{
+    background-color:#c73200
+}
+.color-9{
+    background-color:#3f374f
+}
+
+
+
+
+
+
+@keyframes grow {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  /* @media screen and (max-width:650px) {
+    .heading{
+    font-size : 15px;
+    font-family: "Poetsen One", sans-serif;
+    color: black;
+    margin: 20px;
+    width:337px;
+    padding-left: -28px;
+    padding-inline-end: 0%;
+    background-color: #c73200;
+    }
+    tbody {
+        display: table-row-group;
+        vertical-align: middle;
+        unicode-bidi: isolate;
+        border-color: inherit;  
+    }
+    td{
+        color: white;
+        border: 2px solid white;
+        text-align: center;
+        /* width: 10px; */
+        /* margin-right: 10px;
+        font-weight: 700;
+        size: 12px;
+        border: none;
+        cursor: text;
+        font-size: xx-small;
+    }
+    div{
+        font-weight: 1;
+        width: 2px;
+        font-size: xx-small;
+        content-visibility: hidden;        
+    }
+    table{
+        margin: -3px;
+        padding: 0px;
+        width: 10px;
+        border-spacing: 0.1px;
+    }
+  } */ 
+
+
+
+  
+/* @keyframes flicker{
+    0%, 17%, 33%, 50%, 66%, 83%, 100%{
+        text-shadow: 
+        0px 0px 10px #003355
+        0px 0px 20px #000000
+        0px 0px 40px #005523
+        0px 0px 70px #05aca0
+        0px 0px 110px #003355
+        0px 0px 160px #d10ac1;
+        
+
+    }
+    20%, 40%, 60%, 80%{
+        text-shadow: none;
+    }
+} */
+
